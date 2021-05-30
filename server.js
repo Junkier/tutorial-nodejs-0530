@@ -23,6 +23,8 @@ app.get("/testqq",(req,res)=>{
 app.use("/books",books);  
 // app.use("/about",about);
 
+console.log("下雨啦啦啦啦啦!!!!");
+
 
 app.listen(8088,()=>{
   console.log("Server is running at localhost: 8088");

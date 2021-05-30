@@ -19,5 +19,6 @@ router.get("/list",(req,res)=>{
   });
 });
 
+console.log("我是 books router.");
 
 module.exports = router;
